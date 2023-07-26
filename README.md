@@ -19,7 +19,6 @@ Uses the following lookup tables to complete its tasks:
 
 Dumps everything into a single output file.
 
-----
 ## Clean
       Maps input file columns to their desired column headers
       Maps reported customer to actual end customer stored in the account list
@@ -28,11 +27,9 @@ Dumps everything into a single output file.
           first, checks if the account is on the account list
           then, checks by territory
 
-----
 ## Split
       Creates a new insight file for each sales rep, containing only their line items
 
-----
 ## Compile
       Stitches together any amount of Excel files, as long as they have identical columns
       Used to compile sales rep feedback files
