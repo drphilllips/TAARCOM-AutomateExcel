@@ -20,7 +20,7 @@ Uses the following lookup tables to complete its tasks:
 Dumps everything into a single output file.
 
 ----
-Clean
+## Clean
       Maps input file columns to their desired column headers
       Maps reported customer to actual end customer stored in the account list
           if not in the account list, highlights yellow (new business!)
@@ -29,11 +29,11 @@ Clean
           then, checks by territory
 
 ----
-Split
+## Split
       Creates a new insight file for each sales rep, containing only their line items
 
 ----
-Compile
+## Compile
       Stitches together any amount of Excel files, as long as they have identical columns
       Used to compile sales rep feedback files
 
